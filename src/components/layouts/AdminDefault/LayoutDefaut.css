@@ -1,0 +1,60 @@
+.header{
+    display:flex;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+}
+.header_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #ddd;
+  transition: all 0.2s; /* ✅ hiệu ứng khung */
+  width: 200px;
+}
+
+.header_logo img {
+  width: 40px;
+  height: auto;
+  object-fit: contain;
+  transition: width 0.3s ease; /* ✅ hiệu ứng ảnh */
+}
+
+.header_logo_collapsed {
+  width: 80px;
+transition: all 0.2s; /* ✅ hiệu ứng khung */
+
+}
+
+.header_logo_collapsed img {
+  width: 30px;
+}
+
+
+.header_nav{
+        flex: 1;// chiếm hết chiều rộng còn lại
+
+    padding: 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;//cách đều 2 bên 
+   
+}
+.header_nav_left{
+    display:flex;
+    align-items: center;/*canh giữa theo chiều dọc*/
+    font-size: 20px;
+
+}
+.header_collapse {
+  margin-right: 20px; /* khoảng cách bên phải */
+  cursor: pointer;
+}
+
+.content{
+    padding: 20px;
+}
+.header_logo img {
+  width: 40px;     
+  height: auto;     /* Tự động giữ tỉ lệ */
+  object-fit: contain; /* Tránh méo hình */
+}
