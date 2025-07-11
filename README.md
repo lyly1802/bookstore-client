@@ -37,3 +37,4 @@
 ```bash
 npm install
 npm run dev
+## HƯỚNG DẪN CLONE DỰ ÁN VỀ MÁY
