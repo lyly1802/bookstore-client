@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_DOMAIN = "http://localhost:9999/api/v1/";
+export const API_DOMAIN = "http://localhost:9999/api/v1/";
 //path là phần đường dẫn sau api/v1/ trong URL.
 //data là nội dung bạn gửi lên server, ví dụ như thông tin sách, người dùng, sản phẩm,
 export const get = async (path) => {

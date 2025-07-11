@@ -1,0 +1,18 @@
+
+.home-wrapper {
+  width: 1270px;
+  margin: 0 auto;
+  padding: 40px 0;
+  background-color: #efefef;
+  text-align: center;
+}
+
+.home-wrapper h1 {
+  color: #1890ff;
+  font-size: 32px;
+}
+
+.home-wrapper p {
+  font-size: 18px;
+  color: #555;
+}

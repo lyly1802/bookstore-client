@@ -1,0 +1,10 @@
+.input-custom {
+  border-top: none;
+  border-left: none;
+  border-radius: 0;
+  outline: none;
+}
+
+.input-custom:focus {
+  background-color: rgb(232, 240, 254);
+}
