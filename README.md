@@ -38,3 +38,12 @@
 npm install
 npm run dev
 ## HƯỚNG DẪN CLONE DỰ ÁN VỀ MÁY
+Bước 1: Clone dự án về
+git clone git@github.com:lyly1802/bookstore-client.git
+Bước 2: Di chuyển vào thư mục dự án
+cd bookstore-client
+Bước 3: Cài đặt các thư viện cần thiết
+npm install
+Bước 4: Khởi động ứng dụng
+npm run dev
+
