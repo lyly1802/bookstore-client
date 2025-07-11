@@ -1,12 +1,39 @@
-# React + Vite
+#  Bookstore Client
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Bookstore Client** là frontend giao diện người dùng của một website quản lý và bán sách, được xây dựng bằng **React + Vite**. Dự án gồm hai phần chính: giao diện quản trị (Admin) và giao diện người dùng (User).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tình trạng dự án
 
-## Expanding the ESLint configuration
+- ✅ **Hoàn thành giao diện CRUD cho Admin**
+- ✅ **Thêm giao diện người dùng (User)**:
+  - Đăng ký, đăng nhập
+  - Đăng nhập bằng Google
+  - Quên mật khẩu (Gửi email để đặt lại mật khẩu)
+---
+## Chức năng
+###  Admin:
+- Quản lý sách: Thêm / Sửa / Xóa sách (CRUD)
+- Giao diện thân thiện và dễ sử dụng
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+###  Người dùng (User):
+- Đăng ký, đăng nhập với email + password
+- Đăng nhập bằng tài khoản Google (OAuth2)
+- Quên mật khẩu: Nhập email để nhận liên kết đặt lại mật khẩu
+---
+##  Công nghệ sử dụng
+- ⚛️ React + Vite
+- 🔀 React Router DOM
+- 🧩 Ant Design (UI Components)
+- 🌐 Axios (API)
+- 🔐 Google OAuth (`@react-oauth/google`)
+- 🔔 React Toastify (Thông báo)
+
+---
+
+## ▶️ Cách chạy dự án
+
+```bash
+npm install
+npm run dev
